@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>279</build>
+		<revision>569</revision>
+	</m_Version>
+	<m_ClassName text="TerrainMaterial"/>
+	<m_PackageName text="terrain/TerrainMaterialSet_Base"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_GRASSLAND"/>
+			<m_ObjectName text="TER_Fungal_Grassland_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_PLAINS"/>
+			<m_ObjectName text="TER_Fungal_Plains_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_GRASS_TOP"/>
+			<m_ObjectName text="TER_Fungal_Grassland_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_PLAINS_TOP"/>
+			<m_ObjectName text="TER_Fungal_Plains_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_GRASSHILL_TOP"/>
+			<m_ObjectName text="TER_Fungal_Grassland_Top_Hills"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_PLAINSHILL_TOP"/>
+			<m_ObjectName text="TER_Fungal_Plains_Top_Hills"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_DESERT"/>
+			<m_ObjectName text="TER_Fungal_Desert_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_TUNDRA"/>
+			<m_ObjectName text="TER_Fungal_Tundra_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_BEACH"/>
+			<m_ObjectName text="TER_Fungal_Coast_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_OCEAN"/>
+			<m_ObjectName text="TER_Fungal_Ocean_Shallows"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_SHALLOWS"/>
+			<m_ObjectName text="TER_Fungal_Ocean_Shallows"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_MTN_BASE"/>
+			<m_ObjectName text="TER_Fungal_Mountain_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_MTN_TOP"/>
+			<m_ObjectName text="TER_Fungal_Mountain_Top"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_MTN_SNOW"/>
+			<m_ObjectName text="TER_Fungal_Mountain_Snow"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_DESERT_HILLS"/>
+			<m_ObjectName text="TER_Fungal_Desert_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_TUNDRA_BLEND"/>
+			<m_ObjectName text="TER_Fungal_Tundra_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_COAST_WIDE"/>
+			<m_ObjectName text="TER_Fungal_Coast_Base"/>
+		</Element>
+
+		<!--
+				<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_MTN_DESERT_BASE"/>
+			<m_ObjectName text="TER_Fungal_Mountain_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_MTN_DESERT_STRIPE01"/>
+			<m_ObjectName text="TER_Fungal_Mountain_Mid"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_MTN_DESERT_STRIPE02"/>
+			<m_ObjectName text="TER_Fungal_Mountain_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_MTN_DESERT_STRIPE03"/>
+			<m_ObjectName text="TER_Fungal_Mountain_Mid"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_SNOW"/>
+			<m_ObjectName text="TER_Snow_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_RIVER"/>
+			<m_ObjectName text="TER_River_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_BLANK"/>
+			<m_ObjectName text="TER_Blank"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_FLOODPLAIN"/>
+			<m_ObjectName text="TER_Floodplains"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_GRASSMARSH"/>
+			<m_ObjectName text="TER_Marsh_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_CLIFF"/>
+			<m_ObjectName text="TER_Cliff_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_CLIFF_WHITE"/>
+			<m_ObjectName text="TER_Cliff_White"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_SALT_BASE"/>
+			<m_ObjectName text="TER_Salt_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_ICE"/>
+			<m_ObjectName text="TER_Ice_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_MATERIAL_GALAPAGOS_BASE"/>
+			<m_ObjectName text="TER_Galapagos_Base"/>
+		</Element>
+		
+		-->
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>FungalBiome</Name>
+    <Guid>988dd041-7430-4d32-9b04-f82722d02669</Guid>
+    <ProjectGuid>92d39ae6-bb5d-414a-a5bb-d6f19d7780fb</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>FungalBiome</Teaser>
+    <Description>FungalBiome</Description>
+    <Authors>Del</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>FungalBiome</AssemblyName>
+    <RootNamespace>FungalBiome</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="FungalArt"><Properties><LoadOrder>1</LoadOrder></Properties><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="FungalDB"><File>Data/NW.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Clutter.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Features.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\GameLighting.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Terrains.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\TerrainStyle.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Bravo__Tree_01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Bravo__Tree_02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Bravo__Tree_03.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Bravo__Tree_05.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Bravo__Tree_06.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Bravo__Tree_07.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Bravo__Tree_08.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Bravo__Tree_09.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Bravo__Tree_10.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Bravo__Tree_11.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Bravo__Tree_12.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Deeps_Fungal__Tree_09.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Deeps_Fungal__Tree_10.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Deeps_Fungal__Tree_11.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Deeps_Fungal__Tree_12.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Deeps_Fungal__Tree_13.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Deeps_Fungal__Tree_14.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Deeps_Fungal__Tree_15.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Deeps_Fungal__Tree_16.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Reef_Fungal__Tree_01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Reef_Fungal__Tree_02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Reef_Fungal__Tree_03.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Reef_Fungal__Tree_04.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Reef_Fungal__Tree_05.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Reef_Fungal__Tree_06.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Reef_Fungal__Tree_07.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Reef_Fungal__Tree_08.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Shallows_Fungal__Tree_01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Shallows_Fungal__Tree_02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Shallows_Fungal__Tree_03.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Shallows_Fungal__Tree_04.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Shallows_Fungal__Tree_05.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Shallows_Fungal__Tree_06.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Shallows_Fungal__Tree_07.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Forest_Shallows_Fungal__Tree_08.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Improvement_Marvel_Fungal01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Improvement_Marvel_Fungal01_Asset.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\NW.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__Decal_DCL_Decal.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__Decal_DCL_Decal.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__Decal_DCL_TreeCutterA.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__Decal_DCL_TreeCutterA.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__Decal_DCL_TreeCutterA_SHALLOW.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__Decal_DCL_TreeCutterA_SHALLOW.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__Decal_DCL_TreeCutterB.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__Decal_DCL_TreeCutterB.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__Decal_DCL_TreeCutterB_SHALLOW.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__Decal_DCL_TreeCutterB_SHALLOW.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__Decal_DCL_TreeCutterC.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__Decal_DCL_TreeCutterC.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__Decal_DCL_TreeCutterC_SHALLOW.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__Decal_DCL_TreeCutterC_SHALLOW.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__FungalNodeA01.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__FungalNodeA01.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__FungalNodeA02.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__FungalNodeA02.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__FungalNodeA03.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__FungalNodeA03.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__FungalNodeA04.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\improvement_marvel_fungal01__FungalNodeA04.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\forest_bravo.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\forest_Reef_FrigidFungal_D.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\forest_ShallowsDeep_Fungal_D.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\FungalHillsElement.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\grassland_bravo.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Hero_Landmark_Fungal_DIFF.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Improvement_Marvel_Fungal01_DecalD.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Fungal_Coast_Base.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Fungal_Desert_Base.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Fungal_Desert_Hills.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Fungal_Grassland_Base.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Fungal_Grassland_Top_Hills.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Fungal_Mountain_Base.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Fungal_Mountain_Mid.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Fungal_Mountain_Snow.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Fungal_Mountain_Top.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Fungal_Ocean_Deep.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Fungal_Ocean_Shallows.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Fungal_Plains_Base.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Fungal_Plains_Top_Hills.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\TER_Fungal_Tundra_Base.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Gloss.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Gloss.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Metalness.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Black_Metalness.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_coast_d.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_coast_d.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_coast_h.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_coast_h.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_desert_d.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_desert_d.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_desert_h.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_desert_h.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_grassland_d.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_grassland_d.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_grassland_h.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_grassland_h.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_grassland_hills_d.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_grassland_hills_d.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_grassland_hills_h.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_grassland_hills_h.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_mountain_base_d.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_mountain_base_d.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_mountain_base_h.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_mountain_base_h.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_mountain_mid_d.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_mountain_mid_d.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_mountain_mid_h.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_mountain_mid_h.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_mountain_top_d.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_mountain_top_d.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_mountain_top_h.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_mountain_top_h.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_plain_d.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_plain_d.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_plain_h.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_plain_h.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_plain_hills_d.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_plain_hills_d.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_plain_hills_h.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_plain_hills_h.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_tundra_d.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_tundra_d.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_tundra_h.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_tundra_h.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_tundra_hill_d.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\bravo_tundra_hill_d.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Flat_Normal.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\forest_bravo.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\forest_bravo.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\forest_bravoOPAC.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\forest_bravoOPAC.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\forest_reef_frigidfungal_d.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\forest_reef_frigidfungal_d.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\forest_reef_frigidfungal_OPAC.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\forest_reef_frigidfungal_OPAC.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\forest_shallowsdeep_fungal_d.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\forest_shallowsdeep_fungal_d.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\forest_shallowsdeep_fungal_OPAC.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\forest_shallowsdeep_fungal_OPAC.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FungalHills2_HM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FungalHills2_HM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FungalHills_HM.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FungalHills_HM.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\generic_ocean_barren2_d.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\generic_ocean_barren2_d.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\generic_ocean_barren2_h.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\generic_ocean_barren2_h.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\generic_ocean_barren_d.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\generic_ocean_barren_d.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\generic_ocean_barren_h.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\generic_ocean_barren_h.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\grassland_bravo.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\grassland_bravo.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\grassland_bravoOPAC.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\grassland_bravoOPAC.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\hero_landmark_fungal_decald.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\hero_landmark_fungal_decald.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\hero_landmark_fungal_decalh.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\hero_landmark_fungal_decalh.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\hero_landmark_fungal_diff.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\hero_landmark_fungal_diff.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\hero_landmark_fungal_sref.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\hero_landmark_fungal_sref.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\improvement_marvel_fungal01_decald.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\improvement_marvel_fungal01_decald.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\improvement_marvel_fungal01_decalh.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\improvement_marvel_fungal01_decalh.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\improvement_marvel_fungal01_decal_hrg.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\improvement_marvel_fungal01_decal_hrg.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\jungle_bravo.DDS">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\jungle_bravo.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White220_AO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White220_AO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White230_AO.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\White230_AO.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\clutter.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\TerrainAssetSet_Base.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\TerrainElementSet_Base.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\TerrainMaterialSet_Base.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\tilebases.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs\" />
+    <Folder Include="Assets\" />
+    <Folder Include="Data\" />
+    <Folder Include="Geometries\" />
+    <Folder Include="Materials\" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

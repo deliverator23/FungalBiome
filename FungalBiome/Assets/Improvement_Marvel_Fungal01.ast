@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:AssetInstance>
+	<m_BehaviorData>
+		<m_behaviorDataSets>
+			<m_animationBindings>
+				<m_Bindings>
+				</m_Bindings>
+			</m_animationBindings>
+			<m_timelineBindings>
+				<m_Bindings>
+				</m_Bindings>
+			</m_timelineBindings>
+			<m_timelines>
+				<m_Timelines>
+				</m_Timelines>
+			</m_timelines>
+			<m_attachmentPoints>
+				<m_Points>
+				</m_Points>
+			</m_attachmentPoints>
+		</m_behaviorDataSets>
+		<m_behaviorInstances/>
+		<m_dsgName text=""/>
+		<m_referenceGeometryNames/>
+	</m_BehaviorData>
+	<m_GeometrySet>
+		<m_ModelInstances>
+			<Element>
+				<m_Name text="CN6_ADJUSTMENT_BONE_1"/>
+				<m_GeoName text="improvement_marvel_fungal01__Decal_DCL_Decal5"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Improvement_Marvel_Fungal01_DecalD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Improvement_Marvel_Fungal01_DecalD.dds.006"/>
+						<m_MeshName text="Decal#M"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA01"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA01"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.026"/>
+						<m_MeshName text="FungalNodeA01"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA02"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA02"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.027"/>
+						<m_MeshName text="FungalNodeA02"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA03"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA03"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.028"/>
+						<m_MeshName text="FungalNodeA03"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA04"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA04"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.029"/>
+						<m_MeshName text="FungalNodeA04"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="CN6_ADJUSTMENT_BONE_1"/>
+				<m_GeoName text="improvement_marvel_fungal01__Decal_DCL_Decal5"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Improvement_Marvel_Fungal01_DecalD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Improvement_Marvel_Fungal01_DecalD.dds.006"/>
+						<m_MeshName text="Decal#M"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA01"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA01"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.026"/>
+						<m_MeshName text="FungalNodeA01"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA02"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA02"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.027"/>
+						<m_MeshName text="FungalNodeA02"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA03"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA03"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.028"/>
+						<m_MeshName text="FungalNodeA03"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA04"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA04"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.029"/>
+						<m_MeshName text="FungalNodeA04"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="CN6_ADJUSTMENT_BONE_1"/>
+				<m_GeoName text="improvement_marvel_fungal01__Decal_DCL_Decal5"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Improvement_Marvel_Fungal01_DecalD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Improvement_Marvel_Fungal01_DecalD.dds.006"/>
+						<m_MeshName text="Decal#M"/>
+						<m_StateName text="Worked"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA01"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA01"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.026"/>
+						<m_MeshName text="FungalNodeA01"/>
+						<m_StateName text="Worked"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA02"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA02"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.027"/>
+						<m_MeshName text="FungalNodeA02"/>
+						<m_StateName text="Worked"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA03"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA03"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.028"/>
+						<m_MeshName text="FungalNodeA03"/>
+						<m_StateName text="Worked"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA04"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA04"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.029"/>
+						<m_MeshName text="FungalNodeA04"/>
+						<m_StateName text="Worked"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="CN6_ADJUSTMENT_BONE_1"/>
+				<m_GeoName text="improvement_marvel_fungal01__Decal_DCL_Decal5"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Improvement_Marvel_Fungal01_DecalD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Improvement_Marvel_Fungal01_DecalD.dds.006"/>
+						<m_MeshName text="Decal#M"/>
+						<m_StateName text="Construction"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA01"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA01"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.026"/>
+						<m_MeshName text="FungalNodeA01"/>
+						<m_StateName text="Construction"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA02"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA02"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.027"/>
+						<m_MeshName text="FungalNodeA02"/>
+						<m_StateName text="Construction"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA03"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA03"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.028"/>
+						<m_MeshName text="FungalNodeA03"/>
+						<m_StateName text="Construction"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA04"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA04"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.029"/>
+						<m_MeshName text="FungalNodeA04"/>
+						<m_StateName text="Construction"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="CN6_ADJUSTMENT_BONE_1"/>
+				<m_GeoName text="improvement_marvel_fungal01__Decal_DCL_Decal5"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Improvement_Marvel_Fungal01_DecalD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Improvement_Marvel_Fungal01_DecalD.dds.006"/>
+						<m_MeshName text="Decal#M"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA01"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA01"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.026"/>
+						<m_MeshName text="FungalNodeA01"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA02"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA02"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.027"/>
+						<m_MeshName text="FungalNodeA02"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA03"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA03"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.028"/>
+						<m_MeshName text="FungalNodeA03"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+			<Element>
+				<m_Name text="FungalNodeA04"/>
+				<m_GeoName text="improvement_marvel_fungal01__FungalNodeA04"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects:ObjectValue">
+									<m_ObjectName text="Hero_Landmark_Fungal_DIFF"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="Hero_Landmark_Fungal_DIFF.dds.029"/>
+						<m_MeshName text="FungalNodeA04"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+		</m_ModelInstances>
+	</m_GeometrySet>
+	<m_CookParams>
+		<m_Values/>
+	</m_CookParams>
+	<m_Version>
+		<major>0</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ParticleEffects/>
+	<m_Geometries/>
+	<m_Animations/>
+	<m_Materials/>
+	<m_ClassName text="TileBase"/>
+	<m_DataFiles/>
+	<m_Name text="Improvement_Marvel_Fungal01"/>
+	<m_Description text="Improvement_Marvel_Fungal01"/>
+	<m_Tags>
+		<Element text="TileBase"/>
+	</m_Tags>
+	<m_Groups/>
+</AssetObjects:AssetInstance>

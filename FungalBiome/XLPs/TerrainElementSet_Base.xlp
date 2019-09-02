@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>280</build>
+		<revision>950</revision>
+	</m_Version>
+	<m_ClassName text="TerrainElement"/>
+	<m_PackageName text="terrain/TerrainElementSet_Base"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_HILL"/>
+			<m_ObjectName text="FungalHillsElement"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_CONTINENTAL_HILL_GRASSLAND"/>
+			<m_ObjectName text="FungalHillsElement"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_CONTINENTAL_HILL_SNOW"/>
+			<m_ObjectName text="FungalHillsElement"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_CONTINENTAL_HILL_PLAINS"/>
+			<m_ObjectName text="FungalHillsElement"/>
+		</Element>
+		<!--<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_TEST"/>
+			<m_ObjectName text="TestNaturalWonder"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_NWON_KILIMANJARO"/>
+			<m_ObjectName text="NWON_Kilimanjaro"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_NWON_CRATERLAKE"/>
+			<m_ObjectName text="NWON_CraterLake"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_NWON_YOSEMITE"/>
+			<m_ObjectName text="NWON_Yosemite"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_NWON_GALAPAGOS"/>
+			<m_ObjectName text="NWON_Galapagos"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_NWON_TSINGY"/>
+			<m_ObjectName text="NWON_Tsingy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_NWON_PANTANAL"/>
+			<m_ObjectName text="NWON_Pantanal"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_NWON_TORRES_DEL_PAINE"/>
+			<m_ObjectName text="NWON_Torres_Del_Paine"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_NWON_DEADSEA"/>
+			<m_ObjectName text="NWON_DeadSea"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_NWON_PIOPIOTAHI"/>
+			<m_ObjectName text="NWON_Piopiotahi"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_NWON_BARRIERREEF"/>
+			<m_ObjectName text="NWON_BarrierReef"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_NWON_EVEREST"/>
+			<m_ObjectName text="NWON_Everest"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_FEATURE_OASIS"/>
+			<m_ObjectName text="FEATURE_Oasis"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_FEATURE_SINGLEMOUNTAIN001"/>
+			<m_ObjectName text="FEATURE_SingleMountain001"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_FEATURE_SINGLEMOUNTAIN002"/>
+			<m_ObjectName text="FEATURE_SingleMountain002"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_FEATURE_SINGLEMOUNTAIN003"/>
+			<m_ObjectName text="FEATURE_SingleMountain003"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_FEATURE_SINGLEMOUNTAIN004"/>
+			<m_ObjectName text="FEATURE_SingleMountain004"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_FEATURE_SINGLEMOUNTAIN005"/>
+			<m_ObjectName text="FEATURE_SingleMountain005"/>
+		</Element>
+
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_RIVER_BANK_NOISE"/>
+			<m_ObjectName text="RiverBank_Noise2D"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_RIVER_SOURCE_MTN"/>
+			<m_ObjectName text="RiverOrigin_Mountain"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_RIVER_SOURCE_GENERIC"/>
+			<m_ObjectName text="RiverOrigin_Generic"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_RIVER_SOURCE_HILL"/>
+			<m_ObjectName text="RiverOrigin_Hill"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_FEATURE_SINGLEMOUNTAIN_DESERT004"/>
+			<m_ObjectName text="FEATURE_SingleMountainDesert004"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_FEATURE_SINGLEMOUNTAIN_DESERT002"/>
+			<m_ObjectName text="FEATURE_SingleMountainDesert002"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_FEATURE_SINGLEMOUNTAIN_DESERT003"/>
+			<m_ObjectName text="FEATURE_SingleMountainDesert003"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ART_DEF_TERRAIN_ELEMENT_FEATURE_SINGLEMOUNTAIN_DESERT001"/>
+			<m_ObjectName text="FEATURE_SingleMountainDesert001"/>
+		</Element>-->
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>253</build>
+		<revision>867</revision>
+	</m_Version>
+	<m_ClassName text="Landmark"/>
+	<m_PackageName text="environment/clutter"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Forest_Bravo__Tree_01"/>
+			<m_ObjectName text="Forest_Bravo__Tree_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Bravo__Tree_02"/>
+			<m_ObjectName text="Forest_Bravo__Tree_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Bravo__Tree_03"/>
+			<m_ObjectName text="Forest_Bravo__Tree_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Bravo__Tree_05"/>
+			<m_ObjectName text="Forest_Bravo__Tree_05"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Bravo__Tree_06"/>
+			<m_ObjectName text="Forest_Bravo__Tree_06"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Bravo__Tree_07"/>
+			<m_ObjectName text="Forest_Bravo__Tree_07"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Bravo__Tree_08"/>
+			<m_ObjectName text="Forest_Bravo__Tree_08"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Bravo__Tree_09"/>
+			<m_ObjectName text="Forest_Bravo__Tree_09"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Bravo__Tree_10"/>
+			<m_ObjectName text="Forest_Bravo__Tree_10"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Bravo__Tree_11"/>
+			<m_ObjectName text="Forest_Bravo__Tree_11"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Bravo__Tree_12"/>
+			<m_ObjectName text="Forest_Bravo__Tree_12"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Deeps_Fungal__Tree_09"/>
+			<m_ObjectName text="Forest_Deeps_Fungal__Tree_09"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Deeps_Fungal__Tree_10"/>
+			<m_ObjectName text="Forest_Deeps_Fungal__Tree_10"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Deeps_Fungal__Tree_11"/>
+			<m_ObjectName text="Forest_Deeps_Fungal__Tree_11"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Deeps_Fungal__Tree_12"/>
+			<m_ObjectName text="Forest_Deeps_Fungal__Tree_12"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Deeps_Fungal__Tree_13"/>
+			<m_ObjectName text="Forest_Deeps_Fungal__Tree_13"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Deeps_Fungal__Tree_14"/>
+			<m_ObjectName text="Forest_Deeps_Fungal__Tree_14"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Deeps_Fungal__Tree_15"/>
+			<m_ObjectName text="Forest_Deeps_Fungal__Tree_15"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Deeps_Fungal__Tree_16"/>
+			<m_ObjectName text="Forest_Deeps_Fungal__Tree_16"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Reef_Fungal__Tree_01"/>
+			<m_ObjectName text="Forest_Reef_Fungal__Tree_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Reef_Fungal__Tree_02"/>
+			<m_ObjectName text="Forest_Reef_Fungal__Tree_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Reef_Fungal__Tree_03"/>
+			<m_ObjectName text="Forest_Reef_Fungal__Tree_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Reef_Fungal__Tree_04"/>
+			<m_ObjectName text="Forest_Reef_Fungal__Tree_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Reef_Fungal__Tree_05"/>
+			<m_ObjectName text="Forest_Reef_Fungal__Tree_05"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Reef_Fungal__Tree_06"/>
+			<m_ObjectName text="Forest_Reef_Fungal__Tree_06"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Reef_Fungal__Tree_07"/>
+			<m_ObjectName text="Forest_Reef_Fungal__Tree_07"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Reef_Fungal__Tree_08"/>
+			<m_ObjectName text="Forest_Reef_Fungal__Tree_08"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Shallows_Fungal__Tree_01"/>
+			<m_ObjectName text="Forest_Shallows_Fungal__Tree_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Shallows_Fungal__Tree_02"/>
+			<m_ObjectName text="Forest_Shallows_Fungal__Tree_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Shallows_Fungal__Tree_03"/>
+			<m_ObjectName text="Forest_Shallows_Fungal__Tree_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Shallows_Fungal__Tree_04"/>
+			<m_ObjectName text="Forest_Shallows_Fungal__Tree_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Shallows_Fungal__Tree_05"/>
+			<m_ObjectName text="Forest_Shallows_Fungal__Tree_05"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Shallows_Fungal__Tree_06"/>
+			<m_ObjectName text="Forest_Shallows_Fungal__Tree_06"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Shallows_Fungal__Tree_07"/>
+			<m_ObjectName text="Forest_Shallows_Fungal__Tree_07"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Forest_Shallows_Fungal__Tree_08"/>
+			<m_ObjectName text="Forest_Shallows_Fungal__Tree_08"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Grassland_Bravo__Tree_01"/>
+			<m_ObjectName text="Grassland_Bravo__Tree_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Grassland_Bravo__Tree_02"/>
+			<m_ObjectName text="Grassland_Bravo__Tree_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Grassland_Bravo__Tree_03"/>
+			<m_ObjectName text="Grassland_Bravo__Tree_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Grassland_Bravo__Tree_04"/>
+			<m_ObjectName text="Grassland_Bravo__Tree_04"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

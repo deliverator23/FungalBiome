@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..MaterialInstance>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="bravo_plain_d"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="BaseColor"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="bravo_plain_h"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Heightmap"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="TER_Grass_G"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Spec"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="FOW_Ground_Plains_2k"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="FOWColor"/>
+			</Element>
+			<Element class="AssetObjects..IntValue">
+				<m_nValue>3</m_nValue>
+				<m_ParamName text="BlendLevel"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="TER_Grass_F"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Fuzz"/>
+			</Element>
+			<Element class="AssetObjects..RGBValue">
+				<m_r>200.000000</m_r>
+				<m_g>182.000000</m_g>
+				<m_b>0.000000</m_b>
+				<m_ParamName text="ColorIdentifier"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>64.000000</m_fValue>
+				<m_ParamName text="AlphaIdentifier"/>
+			</Element>
+			<Element class="AssetObjects..IntValue">
+				<m_nValue>26</m_nValue>
+				<m_ParamName text="Priority"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>173</build>
+		<revision>375</revision>
+	</m_Version>
+	<m_ClassName text="TerrainMaterial"/>
+	<m_DataFiles/>
+	<m_Name text="TER_Fungal_Plains_Base"/>
+	<m_Description text=""/>
+	<m_Tags>
+		<Element text="Terrain"/>
+		<Element text="Material"/>
+		<Element text="Plains"/>
+		<Element text="TerrainMaterial"/>
+	</m_Tags>
+	<m_Groups/>
+</AssetObjects..MaterialInstance>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="FEATURE_FUNGAL_MARVEL_1" Kind="KIND_FEATURE"/>
+	</Types>
+	<Features>
+		<Row FeatureType="FEATURE_FUNGAL_MARVEL_1" Name="Fungal Marvel" Tiles="1" FollowRulesInWB="false"/>
+	</Features>
+	<Feature_ValidTerrains>
+        <Row FeatureType="FEATURE_FUNGAL_MARVEL_1" TerrainType="TERRAIN_COAST"/>
+		<Row FeatureType="FEATURE_FUNGAL_MARVEL_1" TerrainType="TERRAIN_OCEAN"/>
+		<Row FeatureType="FEATURE_FUNGAL_MARVEL_1" TerrainType="TERRAIN_DESERT"/>
+		<Row FeatureType="FEATURE_FUNGAL_MARVEL_1" TerrainType="TERRAIN_GRASS"/>
+		<Row FeatureType="FEATURE_FUNGAL_MARVEL_1" TerrainType="TERRAIN_PLAINS"/>
+		<Row FeatureType="FEATURE_FUNGAL_MARVEL_1" TerrainType="TERRAIN_TUNDRA"/>
+		<Row FeatureType="FEATURE_FUNGAL_MARVEL_1" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row FeatureType="FEATURE_FUNGAL_MARVEL_1" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row FeatureType="FEATURE_FUNGAL_MARVEL_1" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row FeatureType="FEATURE_FUNGAL_MARVEL_1" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+	</Feature_ValidTerrains>
+</GameInfo>

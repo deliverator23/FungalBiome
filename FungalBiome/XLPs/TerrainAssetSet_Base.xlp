@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>211</build>
+		<revision>939</revision>
+	</m_Version>
+	<m_ClassName text="TerrainAsset"/>
+	<m_PackageName text="terrain/TerrainAssetSet_Base"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Improvement_Marvel_Fungal01_Asset"/>
+			<m_ObjectName text="Improvement_Marvel_Fungal01_Asset"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
